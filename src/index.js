@@ -12,8 +12,6 @@ import VideoDetail from './components/video_detail';
 
 const API_KEY = 'AIzaSyDOmPjACNi7ELoXYa2GcmAuUlmuMAMOin8';
 
-//Create a new component. This component should produce some HTML
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +21,7 @@ class App extends Component {
       selectedVideo: null
     };
 
-    this.videoSearch('surfboards');
+    this.videoSearch('Lady Gaga');
   }
 
   videoSearch(term) {
@@ -46,6 +44,7 @@ class App extends Component {
 
     return (
       <div>
+        <h1 className="title-bar">YouTube LiveSearch</h1>
         <SearchBar onSearchTermChange={videoSearch}  />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
@@ -54,7 +53,5 @@ class App extends Component {
     );
   }
 }
-
-//Take this component's generated HTML and put it on the page (in the DOM)
 
 ReactDOM.render(<App />, document.querySelector('.container'));

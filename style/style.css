@@ -1,3 +1,10 @@
+.title-bar {
+  background-color: cornflowerblue;
+  width: 100%;
+  text-align: left;
+  color: whitesmoke;
+}
+
 .search-bar {
   margin: 20px;
   text-align: center;
