@@ -1,6 +1,6 @@
 # Youtube Search Engine
 
-## Deployment: [http://tvanmaren-youtube.surge.sh/](tvanmaren-youtube.surge.sh/)
+## Deployment: [tvanmaren-youtube.surge.sh/](http://tvanmaren-youtube.surge.sh/)
 
 ## Project Description
 
