@@ -10,7 +10,7 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="search-bar">
-        Search Term:&nbsp;
+        Search&nbsp;&nbsp;
         <input placeholder="e.g., Lady Gaga"
           value={this.state.term}
           onChange={event=>this.onInputChange(event.target.value)} />
