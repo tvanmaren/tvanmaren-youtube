@@ -11,3 +11,5 @@ Built for part one of Stephen Grider's *[Modern React with Redux](http://udemy.c
 ## API integration
 
 This app interfaces with the YouTube API via Stephen Grider's youtube-api-search node module.
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
